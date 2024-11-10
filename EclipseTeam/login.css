@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+html {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 0.5rem;
+  margin: 0 auto;
+}
+
+.register_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 13px;
+  gap: 1rem;
+}
+
+.register_items form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.register_items form input {
+  border: none;
+  outline: none;
+  max-width: 316px;
+  width: 100%;
+  height: 56px;
+  padding: 0 0.8rem;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.register_items form input:focus {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.register_items form button {
+  border: none;
+  outline: none;
+  max-width: 316px;
+  width: 100%;
+  height: 56px;
+  padding: 0 0.8rem;
+  border-radius: 15px;
+  background-color: #456efe;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+::placeholder {
+  font-size: 1.2em;
+  color: #a4a9ae;
+  letter-spacing: 2px;
+}
+
+.register_items_head {
+  font-size: 2.5em;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.register_items_desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e949a;
+  font-size: 1.2em;
+  gap: 0.5rem;
+}
+
+.register_items_desc a {
+  color: #fff;
+}
+
+body {
+  position: relative;
+  background-color: #232f3b;
+  overflow: hidden;
+}
+
+.ecclips1 {
+  position: absolute;
+  width: 688px;
+  height: 688px;
+  top: -50%;
+  left: 20%;
+  border-radius: 50%;
+
+  background: rgba(28, 43, 57, 0.1);
+  box-shadow: inset 19px 16px 103px -3px rgba(255, 255, 255, 0.03);
+}
+
+.ecclips2 {
+  position: absolute;
+  bottom: -10%;
+  width: 342px;
+  height: 342px;
+  border-radius: 50%;
+  left: -20%;
+
+  background: rgba(255, 255, 255, 0.03);
+}
