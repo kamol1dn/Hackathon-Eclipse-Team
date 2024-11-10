@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main_items {
+  width: 100%;
+  height: 100vh;
+  background: url(./bn1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5rem 1rem 7rem 1rem;
+}
+
+.main_items_head {
+  color: #456efe;
+  font-size: 2.5em;
+}
+
+.main_items_desc {
+  font-size: 1.2em;
+  color: #8e949a;
+  font-weight: 600;
+}
+
+.main_items_btn {
+  background-color: #4f5962;
+  color: #c8cbce;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  align-self: flex-end;
+}
